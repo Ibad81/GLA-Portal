@@ -79,9 +79,13 @@ main {
     padding-left: 0px;
     
 }
+.navback{
+    background-color: #665A48;
+}
 .na{
-    background-color: black;
+    background-color: #393939;
     border: 2px black;
+    color: white;
     /* color: white; */
     /* margin-bottom: 10%; */
     
@@ -124,13 +128,30 @@ div .text-center{
 }
 .info{
     width: 50%;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 5%;
-    background-color: black;
-    color: #fff;
-    padding: 5px;
+    background-color: #3A8891;
+    color: black;
+    /* font-weight: ; */
+    padding: 5px 10px;
     margin-right: 2%;
+    opacity: .8;
+    text-decoration: dashed;
+    /* color: black; */
+    
 }
+/* .info h2{ */
+    /* text-decoration: dashed;
+    /* border: 2px dashed ; */
+    /* color: black; */
+/* } */ */
 .hed{
     margin-left: 35%;
+}
+
+.pa button{
+    color: white;
+}
+.pa button:hover{
+    color: #665A48;
 }
